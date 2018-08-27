@@ -1,0 +1,65 @@
+.byl-check-box-wrap{
+    width:100%;
+    ul{
+        display:flex;
+        flex-wrap: wrap;
+    .point-select-content{
+         display:inline;
+    }
+        li{
+            margin-top:8px;
+            .select-icon{
+                width:26px;
+                vertical-align:middle;
+                margin-top:-4px;
+            }
+            .byl-checked-box{
+                border-color:rgba(0,0,0,0);
+            }
+            div{
+                text-align: center;
+                width: 100%;
+                border:1px solid #e5e5e5;
+                box-sizing:border-box;
+                font-size:12px;
+                min-height:32px;
+                line-height: 32px;
+                position:relative;
+                .checked-border-wrap{
+                    width: 100%;
+                    height:100%;
+                    border-color:#000;
+                    border-width:1.5px;
+                    border-style: solid;
+                    position: absolute;
+                    left: 0px;
+                    top:0px;
+                }
+                .pulok{
+                    position:absolute;
+                    right:0px;
+                    bottom:0px;
+                    width: 0px;
+                    height:0px;
+                    border-width:8px;
+                    border-color:transparent;
+                    border-style: solid;
+                    border-bottom-color: #000;
+                    border-right-color: #000;
+                    color:#fff;
+                    line-height: 6px;
+                    font-size: 8px;
+                }
+            }
+            .byl-check-box{
+                cursor:pointer;
+                color:#000;
+            }
+            .byl-check-box-disabled{
+                cursor:no-drop;
+                border-style: dashed;
+                color:#a4a4a4;
+            }
+        }
+    }
+}
